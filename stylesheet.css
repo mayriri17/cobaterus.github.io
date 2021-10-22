@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(40, 122, 51, 0.9);
+    color: white
+}
+
+.logo {
+    width: 125px;
+    height: 65px;
+    float: left;
+}
+
+
+.header-right li {
+    float: right;
+    margin-right: 15px;
+    line-height: 65px;
+}
+
+.tentang{
+    background-color: rgba(255,255,255,0.3);
+    line-height: 65px;
+    padding: 25px 5px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.hubungi {
+    background-color: rgba(255,255,255,0.3);
+    line-height: 65px;
+    padding: 25px 5px; 
+    color: white; 
+    transition: all 0.5s;
+}
+
+.hubungi:hover {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.tentang:hover {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.top-wrapper {
+    padding: 40px 0 40px 0;
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/02/18/24/watermelon-2367029_960_720.jpg);
+    background-size: cover;
+    color: rgba(239, 240, 243, 0.9);
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 10px;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+
+.top-wrapper h2 {
+    letter-spacing: 10px;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+.heading h2 {
+    letter-spacing: 5px;
+    font-family: cursive;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(41, 30, 71);
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto
+}
+
+.menu-wrapper {
+    height: 450px;
+    padding-bottom: 150px;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+    color: #3eca6d
+}
+
+.heading h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    width: 33%;
+}
+
+.image {
+    width: 350px;
+    height: 250px;
+  
+}
+
+.text-menu {
+    width: 80%;
+    font-size: 15px;
+    margin-top:20px;
+}
+
+.btn {
+    display: inline-block
+}
+
+.allmenu {
+    text-align: center;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.allmen {
+    padding: 12px 24px;
+    background-color:#2acf40;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 7px #084b34;
+}
+
+.allmen:active {
+    box-shadow: none;
+    top: 7px;
+    position: relative;
+}
+
+.info-reservasi {
+    height: 400px;
+    padding-bottom: 20px;
+}
+.info-reservasi p {
+    font-size: 12px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #857e8a
+}
+
+input {
+    border: 1px solid #d4d9db;
+    width: 300px;
+    padding-bottom: 10px;;
+}
+
+textarea {
+    border: 1px solid #d4d9db;
+    width: 300px;
+    padding-bottom: 10px;;
+}
+
+.info-submit {
+    background-color: #4b4c4d;
+    color:#889eab ;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.info-submit:hover {
+    opacity: 0.8;
+}
+
+.logo-footer {
+    width: 125px;
+    height: 65px;
+}
+
+footer {
+    background-color: #2acf40;
+    height: 65px;
+}
+
+.logo-footer {
+    float: left;
+}
+
+footer p {
+    float: right;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 18px;
+    font-family: "Lucida Grande";
+}
